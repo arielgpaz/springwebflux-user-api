@@ -1,5 +1,7 @@
 package com.agpaz.webfluxcourse.controller;
 
+import com.agpaz.webfluxcourse.model.request.UserRequest;
+import com.agpaz.webfluxcourse.model.response.UserResponse;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Flux;
