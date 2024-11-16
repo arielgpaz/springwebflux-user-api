@@ -1,13 +1,13 @@
-package com.agpaz.webfluxcourse;
+package com.agpaz.user;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class WebfluxCourseApplication {
+public class WebfluxApiApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(WebfluxCourseApplication.class, args);
+        SpringApplication.run(WebfluxApiApplication.class, args);
     }
 
 }

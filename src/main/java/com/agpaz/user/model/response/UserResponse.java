@@ -1,4 +1,4 @@
-package com.agpaz.webfluxcourse.model.response;
+package com.agpaz.user.model.response;
 
 public record UserResponse(
         String id,

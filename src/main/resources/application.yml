@@ -1,7 +1,10 @@
 spring:
-  application:
-    name: webflux-course
   data:
     mongodb:
-      uri: mongodb+srv://${DB_USR}:${DB_PSW}@webfluxcoursecluster.wrof5.mongodb.net/webflux-course?retryWrites=true&w=majority&appName=WebfluxCourseCluster
+      host: localhost
+      port: 27017
+      database: WebfluxDb
+      username: WebfluxDbUser
+      password: WebfluxDbPassword
+      authentication-database: admin
       auto-index-creation: true

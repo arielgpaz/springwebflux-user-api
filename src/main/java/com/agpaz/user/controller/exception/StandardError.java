@@ -1,4 +1,4 @@
-package com.agpaz.webfluxcourse.controller.exception;
+package com.agpaz.user.controller.exception;
 
 import lombok.Builder;
 import lombok.Data;

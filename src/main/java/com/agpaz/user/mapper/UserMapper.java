@@ -1,7 +1,7 @@
-package com.agpaz.webfluxcourse.mapper;
+package com.agpaz.user.mapper;
 
-import com.agpaz.webfluxcourse.entity.User;
-import com.agpaz.webfluxcourse.model.request.UserRequest;
+import com.agpaz.user.entity.User;
+import com.agpaz.user.model.request.UserRequest;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 

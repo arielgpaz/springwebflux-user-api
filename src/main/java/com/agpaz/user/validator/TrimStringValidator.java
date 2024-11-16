@@ -1,9 +1,9 @@
-package com.agpaz.webfluxcourse.validator;
+package com.agpaz.user.validator;
 
 import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;
 
-public class TrimStringValidator implements ConstraintValidator<TrimString, String> {
+public class TrimStringValidator implements ConstraintValidator<NotBlankSpace, String> {
 
     @Override
     public boolean isValid(String value, ConstraintValidatorContext constraintValidatorContext) {

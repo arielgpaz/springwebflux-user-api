@@ -1,4 +1,4 @@
-package com.agpaz.webfluxcourse.controller.exception;
+package com.agpaz.user.controller.exception;
 
 import org.springframework.dao.DuplicateKeyException;
 import org.springframework.http.ResponseEntity;
